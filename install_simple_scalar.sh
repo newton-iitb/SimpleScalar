@@ -11,12 +11,12 @@ cd build/
 
 # A simple wget commandline would not comply the licence
 # SimpleScalar has to be downloaded manually
-if [ ! -f "simplesim-3v0e.tgz" ]
-then
-    TEXT="Please:\n- Accept the licence then download the archive file: http://www.simplescalar.com/agreement.php3?simplesim-3v0e.tgz\n- Place the archive in the build/ directory.\n- Launch this script again"
-    echo -e $TEXT
-    exit 1
-fi
+#if [ ! -f "simplesim-3v0e.tgz" ]
+#then
+#    TEXT="Please:\n- Accept the licence then download the archive file: http://www.simplescalar.com/agreement.php3?simplesim-3v0e.tgz\n- Place the archive in the build/ directory.\n- Launch this script again"
+#    echo -e $TEXT
+#    exit 1
+#fi
 
 wget http://www.simplescalar.com/downloads/simpletools-2v0.tgz
 wget http://www.simplescalar.com/downloads/simpleutils-2v0.tgz
